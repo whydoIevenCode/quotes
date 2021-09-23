@@ -58,6 +58,9 @@ body {
   transform: translateY(4px);
   box-shadow: 0 0.3rem rgb(121, 121, 121, 0);
 }
+.btn:focus {
+  outline: none;
+}
 
 @media (max-width: 900px) {
   html {
